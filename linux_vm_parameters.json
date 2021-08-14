@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "simpleLinuxVM"
+        },
+        "adminUsername": {
+            "value": "localadmin"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPasswordOrKey": {
+            "value": null
+        },
+        "dnsLabelPrefix": {
+            "value": "simplelinuxvm-2da3xn2iphm5c"
+        },
+        "ubuntuOSVersion": {
+            "value": "18.04-LTS"
+        },
+        "location": {
+            "value": "southcentralus"
+        },
+        "vmSize": {
+            "value": "Standard_B2s"
+        },
+        "virtualNetworkName": {
+            "value": "vaefvNet"
+        },
+        "subnetName": {
+            "value": "vaefSubnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "SecGroupNet"
+        }
+    }
+}
